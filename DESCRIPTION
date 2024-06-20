@@ -1,0 +1,14 @@
+Package: edm1
+Title: Set of tools to work with joins
+Version: 2.0.0.0
+Authors@R: 
+    person("Julien", "Larget-Piet", , "julien.larget-piet@dreamRs.fr", role = c("aut", "cre"))
+Description: Provides functions to see your progress while performing a join that normally needs variable concatenation, a reimplementation  of the join procedure on n dataframes and extended features for dplyr joins.
+License: GPL (==3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    stringr,
+    stringi,
+    dplyr
